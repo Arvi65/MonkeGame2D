@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            .column {
+              float: left;
+              width: 33.33%;
+              padding: 5px;
+            }
+            
+            /* Clearfix (clear floats) */
+            .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            </style>
+    </head>
+    <body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <div class="row">
+
+        <div class="column"><h1 style="color: white;">e</h1></div>
+        <div class="column"><img src="error-icon.png" alt="Error Icon" style="width:auto;">  </div>
+    </div>
+<center>
+    <h1>
+        Something went wrong.
+    </h1>
+    <h3 style="color: gray;">
+        Cannot connect to Turbowarp Server.
+    </h3>
+    <h3 style="color: gray;">
+        This could occur due to the server crashing or your device being on the ban list.
+    </h3>
+    <h3 style="color: darkgrey;">
+        ERROR CODE: 04/01
+    </h3>
+</center>
+    </body>
+</html>
