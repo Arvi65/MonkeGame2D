@@ -10,7 +10,7 @@ Some new features:
 - Banning 🔨
 
 
-Introuduction:
+# Introuduction:
 
 Welcome to MonkeGame2D, as some of you might know, this game is inspired by Gorilla Tag. 
 Run, jump, and climb as a monke with the arrow keys cuz humanity has failed us all.
